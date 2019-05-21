@@ -1,1 +1,15 @@
+Ubuntu:
+  apt-get update
+  apt-get install subversion
+CentOS:
+  yum install subversion
+
+
+sudo mkdir /svnroot
+sudo svnadmin create /svnroot/zhangban
+
+sudo rm -rvf 目录
+v :will display what you delete ，include the folder that you delete
+r :指示rm将参数中列出的全部目录和子目录均递归地删除
+f :ignore the file that not does not exit ,never give prompt
 
