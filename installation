@@ -1,7 +1,7 @@
 Ubuntu:
   apt-get update
   apt-get install subversion
-CentOS:
+CentOS:Redhat
   yum install subversion
 
 
